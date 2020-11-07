@@ -63,7 +63,7 @@ export async function renderFolderView(items, path) {
                     <li>若需要提升下载速度，请使用多线程下载器</li>
                     <li>若速度依旧不理想，请尝试代理，使用方法：
                     <ul>
-                    <li>在文件链接后面加 ?raw=true&amp;proxied</li>
+                    <li>在文件链接后面加 <code>?raw=true&amp;proxied</code></li>
                     <li>例子: <a href="https://storage.isteed.cc/README.md?raw=true&amp;proxied">https://storage.isteed.cc/README.md?raw=true&amp;proxied</a></li>
                     </ul>
                     </li>
