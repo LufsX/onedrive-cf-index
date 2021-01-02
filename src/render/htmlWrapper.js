@@ -1,5 +1,3 @@
-import { favicon } from './favicon'
-
 const COMMIT_HASH = '5d7579fcfb4729fcb855110c5f0ed5488d1d0d44'
 
 const pagination = (pIdx, attrs) => {
@@ -34,7 +32,7 @@ export function renderHTML(body, pLink, pIdx) {
       <meta http-equiv="x-ua-compatible" content="ie=edge, chrome=1" />
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
       <title>一个假的网盘</title>
-      <link rel="shortcut icon" type="image/png" sizes="16x16" href="${favicon}" />
+      <link rel="shortcut icon" type="image/png" sizes="16x16" href="https://cdn.jsdelivr.net/gh/lufsx/res@master/file/storage-icon.png" />
       <script>
       window.ga_tid = "UA-139861604-5";
       window.ga_api = "https://cfga.lufs.workers.dev/";
