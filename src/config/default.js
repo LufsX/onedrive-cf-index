@@ -5,14 +5,14 @@ const config = {
    * to get following params: client_id, client_secret, refresh_token & redirect_uri.
    */
   refresh_token: REFRESH_TOKEN,
-  client_id: '6600e358-9328-4050-af82-0af9cdde796b',
+  client_id: 'f412fd76-526f-45b0-b6a3-7f7e4519bdde',
   client_secret: CLIENT_SECRET,
   redirect_uri: 'https://heymind.github.io/tools/microsoft-graph-api-auth',
 
   /**
    * The base path for indexing, all files and subfolders are public by this tool. For example: `/Public`.
    */
-  base: '/Public',
+  base: '/',
 
   /**
    * Feature: add OneDriveCN (21Vianet) support
@@ -26,7 +26,7 @@ const config = {
    */
   pagination: {
     enable: true,
-    top: 100 // default: 200, accepts a minimum value of 1 and a maximum value of 999 (inclusive)
+    top: 70 // default: 200, accepts a minimum value of 1 and a maximum value of 999 (inclusive)
   },
 
   /**
@@ -47,7 +47,7 @@ const config = {
    *
    */
   cache: {
-    enable: false,
+    enable: true,
     entireFileCacheLimit: 10000000, // 10MB
     chunkedCacheLimit: 100000000, // 100MB
     paths: ['/Images']
