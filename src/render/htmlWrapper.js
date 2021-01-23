@@ -1,4 +1,4 @@
-const COMMIT_HASH = '5d7579fcfb4729fcb855110c5f0ed5488d1d0d44'
+const COMMIT_HASH = '6e91d1e3342969a45b21c2893a788ba3dc46f854'
 
 const pagination = (pIdx, attrs) => {
   const getAttrs = (c, h, isNext) =>
