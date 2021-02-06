@@ -50,9 +50,41 @@ export async function renderFolderView(items, path, request) {
     )
 
   const intro = `<div class="intro markdown-body" style="text-align: left; margin-top: 2rem;">
-                    <h2>Yoo, I'm Spencer Woo 👋</h2>
-                    <p>This is Spencer's OneDrive public directory listing. Feel free to download any files that you find useful. Reach me at: spencer.wushangbo [at] gmail [dot] com.</p>
-                    <p><a href="https://spencerwoo.com">Portfolio</a> · <a href="https://blog.spencerwoo.com">Blog</a> · <a href="https://github.com/spencerwooo">GitHub</a></p>
+                    <h2>这里是个假的网盘</h2>
+                    <h4>关于网盘<h4>
+                    <blockquote>
+                    <p>本盘资源均为个人收集使用</p>
+                    <p>网盘资源随缘更新，有什么需要的资源请联系我</p>
+                    <p>资源均为网络收集，如有侵权请<a href="https://blog.isteed.cc/post/about/#%E8%81%94%E7%B3%BB%E6%88%91">联系我</a>删除</p>
+                    </blockquote>
+                    <h4>使用必读</h4>
+                    <p>本网盘是使用 OneDrvie A1 国际版订阅，国内部分地区速度可能不理想</p>
+                    <ul>
+                    <li>若需要提升下载速度，请使用多线程下载器</li>
+                    <li>若速度依旧不理想，请尝试代理，使用方法：
+                    <ul>
+                    <li>在文件链接后面加 ?raw=true&amp;proxied</li>
+                    <li>例子: <a href="https://storage.isteed.cc/README.md?raw=true&amp;proxied">https://storage.isteed.cc/README.md?raw=true&amp;proxied</a></li>
+                    </ul>
+                    </li>
+                    <li>若速度仍不理想，请尝试使用多线程代理下载，使用方法：
+                    <ul>
+                    <li>将文件链接粘贴进 <a href="https://proxy.lufs.workers.dev/">https://proxy.lufs.workers.dev/</a></li>
+                    <li>再使用新的链接下载（可多线程）</li>
+                    </ul>
+                    </li>
+                    <li>若速度还不理想，请添加 hosts 重新尝试上面两个方法
+                    <ul>
+                    <li>Hosts 内容：</li>
+                    <li><code>1.0.0.1 storage.isteed.cc</code></li>
+                    <li><code>1.0.0.1 proxy.lufs.workers.dev</code></li>
+                    </ul>
+                    </li>
+                    <li>终极方法... 开代理</li>
+                    </ul>
+                    <h4>支持</h4>
+                    <p><a href="https://github.com/spencerwooo/onedrive-cf-index"><img src="https://img.shields.io/badge/powered%20by-onedrive%20cf%20index-black?logo=github&style=for-the-badge&labelColor=24292e&longCache=true"></a></p>
+                    <p><a href="https://isteed.cc">Portfolio</a> · <a href="https://blog.isteed.cc">Blog</a>
                   </div>`
 
   // Check if current directory contains README.md, if true, then render spinner
