@@ -18,13 +18,14 @@ const config = {
   },
 
   refresh_token: REFRESH_TOKEN,
-  client_id: '659251ce-fcb4-47c2-beb3-e38ae8fab9f7',
+  client_id: '403956a0-aa1a-4320-9258-762c77366d22',
   client_secret: CLIENT_SECRET,
-
+  refresh_token: REFRESH_TOKEN1 + REFRESH_TOKEN2,
   /**
    * Exactly the same `redirect_uri` in your Azure Application
    */
-  redirect_uri: 'http://localhost',
+  redirect_uri: 'https://heymind.github.io/tools/microsoft-graph-api-auth',
+
 
   /**
    * The base path for indexing, all files and subfolders are public by this tool. For example: `/Public`.
