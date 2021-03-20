@@ -17,10 +17,9 @@ const config = {
     sitePath: null
   },
 
-  refresh_token: REFRESH_TOKEN,
+  refresh_token: REFRESH_TOKEN1 + REFRESH_TOKEN2,
   client_id: '403956a0-aa1a-4320-9258-762c77366d22',
   client_secret: CLIENT_SECRET,
-  refresh_token: REFRESH_TOKEN1 + REFRESH_TOKEN2,
   /**
    * Exactly the same `redirect_uri` in your Azure Application
    */
