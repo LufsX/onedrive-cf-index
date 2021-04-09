@@ -63,7 +63,7 @@ export async function renderFolderView(items, path, request) {
                     <li>若需要提升下载速度，请使用多线程下载器</li>
                     <li>若速度依旧不理想，请尝试代理，使用方法：
                     <ul>
-                    <li>在文件链接后面加 ?raw=true&amp;proxied</li>
+                    <li>在文件链接后面加 <code>?raw=true&amp;proxied</code></li>
                     <li>例子: <a href="https://storage.isteed.cc/README.md?raw=true&amp;proxied">https://storage.isteed.cc/README.md?raw=true&amp;proxied</a></li>
                     </ul>
                     </li>
@@ -72,14 +72,6 @@ export async function renderFolderView(items, path, request) {
                     <li>将文件链接粘贴进 <a href="https://proxy.lufs.workers.dev/">https://proxy.lufs.workers.dev/</a></li>
                     <li>再使用新的链接下载（可多线程）</li>
                     </ul>
-                    </li>
-                    <li>若速度还不理想，请添加 hosts 重新尝试上面两个方法
-                    <ul>
-                    <li>Hosts 内容：</li>
-                    <li><code>1.0.0.1 storage.isteed.cc</code></li>
-                    <li><code>1.0.0.1 proxy.lufs.workers.dev</code></li>
-                    </ul>
-                    </li>
                     <li>终极方法... 开代理</li>
                     </ul>
                     <h4>支持</h4>
