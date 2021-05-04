@@ -33,7 +33,6 @@ export function renderHTML(body, pLink, pIdx) {
       <title>一个假的网盘</title>
       <link rel="shortcut icon" type="image/png" sizes="16x16" href="https://cdn.jsdelivr.net/gh/lufsx/res@master/file/storage-icon.png" />
       <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "2030b837895a48439e4bd30fb497cf63"}'></script>
-      <script async src="https://cdn.splitbee.io/sb.js"></script>
       <script>
       window.ga_tid = "UA-139861604-5";
       window.ga_api = "https://cfga.lufs.workers.dev/";
