@@ -23,7 +23,7 @@ const config = {
   /**
    * Exactly the same `redirect_uri` in your Azure Application
    */
-  redirect_uri: 'https://heymind.github.io/tools/microsoft-graph-api-auth',
+  redirect_uri: 'http://localhost',
 
 
   /**
