@@ -33,11 +33,7 @@ export function renderHTML(body, pLink, pIdx) {
       <title>一个假的网盘</title>
       <link rel="shortcut icon" type="image/png" sizes="16x16" href="https://cdn.jsdelivr.net/gh/lufsx/res@master/file/storage-icon.png" />
       <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "2030b837895a48439e4bd30fb497cf63"}'></script>
-      <script>
-      window.ga_tid = "UA-139861604-5";
-      window.ga_api = "https://cfga.lufs.workers.dev/";
-      </script>
-      <script async="" src="https://cdn.isteed.cc/file/cfga.min.js"></script>
+      <script async="" src="https://cdn.isteed.cc/file/cfga-drive.min.js"></script>
       <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.1/css/all.min.css" rel="stylesheet">
       <link href="https://cdn.jsdelivr.net/gh/spencerwooo/onedrive-cf-index@${COMMIT_HASH}/themes/spencer.css" rel="stylesheet">
       <link href="https://cdn.jsdelivr.net/gh/sindresorhus/github-markdown-css@gh-pages/github-markdown.css" rel="stylesheet">
