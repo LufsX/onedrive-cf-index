@@ -31,22 +31,22 @@ export function renderHTML(body, pLink, pIdx) {
       <meta http-equiv="x-ua-compatible" content="ie=edge, chrome=1" />
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
       <title>一个假的网盘</title>
-      <link rel="shortcut icon" type="image/png" sizes="16x16" href="https://cdn.jsdelivr.net/gh/lufsx/res@master/file/storage-icon.png" />
+      <link rel="shortcut icon" type="image/png" sizes="16x16" href="https://cdn.isteed.cc/file/storage-icon.png" />
       <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "2030b837895a48439e4bd30fb497cf63"}'></script>
       <script async="" src="https://cdn.isteed.cc/file/cfga-drive.min.js"></script>
-      <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.1/css/all.min.css" rel="stylesheet">
-      <link href="https://cdn.jsdelivr.net/gh/spencerwooo/onedrive-cf-index@${COMMIT_HASH}/themes/spencer.css" rel="stylesheet">
-      <link href="https://cdn.jsdelivr.net/gh/sindresorhus/github-markdown-css@gh-pages/github-markdown.css" rel="stylesheet">
-      <link href="https://cdn.jsdelivr.net/gh/spencerwooo/onedrive-cf-index@${COMMIT_HASH}/themes/prism-github.css" rel="stylesheet">
-      <link href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css" rel="stylesheet">
-      <script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/prism.min.js" data-manual></script>
-      <script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/turbolinks@5.2.0/dist/turbolinks.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/gh/pipwerks/PDFObject/pdfobject.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/flv.js@1.5.0/dist/flv.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/dplayer@1.26.0/dist/DPlayer.min.js"></script>
+      <link href="https://cors.isteed.cc/https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.1/css/all.min.css" rel="stylesheet">
+      <link href="https://cors.isteed.cc/https://cdn.jsdelivr.net/gh/spencerwooo/onedrive-cf-index@${COMMIT_HASH}/themes/spencer.css" rel="stylesheet">
+      <link href="https://cors.isteed.cc/https://cdn.jsdelivr.net/gh/sindresorhus/github-markdown-css@gh-pages/github-markdown.css" rel="stylesheet">
+      <link href="https://cors.isteed.cc/https://cdn.jsdelivr.net/gh/spencerwooo/onedrive-cf-index@${COMMIT_HASH}/themes/prism-github.css" rel="stylesheet">
+      <link href="https://cors.isteed.cc/https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css" rel="stylesheet">
+      <script src="https://cors.isteed.cc/https://cdn.jsdelivr.net/npm/prismjs@1.17.1/prism.min.js" data-manual></script>
+      <script src="https://cors.isteed.cc/https://cdn.jsdelivr.net/npm/prismjs@1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
+      <script src="https://cors.isteed.cc/https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"></script>
+      <script src="https://cors.isteed.cc/https://cdn.jsdelivr.net/npm/turbolinks@5.2.0/dist/turbolinks.min.js"></script>
+      <script src="https://cors.isteed.cc/https://cdn.jsdelivr.net/gh/pipwerks/PDFObject/pdfobject.min.js"></script>
+      <script src="https://cors.isteed.cc/https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+      <script src="https://cors.isteed.cc/https://cdn.jsdelivr.net/npm/flv.js@1.5.0/dist/flv.min.js"></script>
+      <script src="https://cors.isteed.cc/https://cdn.jsdelivr.net/npm/dplayer@1.26.0/dist/DPlayer.min.js"></script>
     </head>
     <body>
       <nav id="navbar" data-turbolinks-permanent><div class="brand"><a href="/" style="text-decoration:none">📂</a> 一个假的网盘</div></nav>
